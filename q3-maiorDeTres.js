@@ -3,6 +3,17 @@
 
 function maiorDeTres(a, b, c) {
   // escreva sua solução aqui
+  let maior = a;
+
+  if (b > maior) {
+    maior = b;
+  }
+
+  if (c > maior) {
+    maior = c;
+  }
+
+  return maior;
 }
 
 // Testes (não altere esta parte)

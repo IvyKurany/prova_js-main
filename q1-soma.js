@@ -3,6 +3,7 @@
 
 function soma(a, b) {
   // escreva sua solução aqui
+  return a + b
 }
 
 // Testes (não altere esta parte)

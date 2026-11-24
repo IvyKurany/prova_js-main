@@ -4,6 +4,16 @@
 
 function contarVogais(texto) {
   // escreva sua solução aqui
+  const vogais = "aeiou";
+  let contador = 0;
+
+  for (const letra of texto) {
+    if (vogais.includes(letra)) {
+      contador++;
+    }
+  }
+
+  return contador;
 }
 
 // Testes (não altere esta parte)

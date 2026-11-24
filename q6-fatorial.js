@@ -3,6 +3,11 @@
 
 function fatorial(n) {
   // escreva sua solução aqui
+  let resultado = 1;
+  for (let i = 2; i <= n; i++){
+    resultado *= i;
+  }
+  return resultado; 
 }
 
 // Testes (não altere esta parte)

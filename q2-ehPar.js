@@ -3,7 +3,8 @@
 
 function ehPar(n) {
   // escreva sua solução aqui
-}
+  return n % 2 === 0;
+  }  
 
 // Testes (não altere esta parte)
 console.log(ehPar(4) === true ? "OK" : "ERRO");

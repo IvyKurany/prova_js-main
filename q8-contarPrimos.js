@@ -4,6 +4,23 @@
 
 function contarPrimos(n) {
   // escreva sua solução aqui
+  let quantidade = 0 ;
+
+  for (let num = 2; num <= n; num++) {
+    let ehPrimo = true;
+
+    for (let divisor = 2; divisor <=Math.sqrt(num); divisor++){
+      if (num % divisor === 0) {
+        ehPrimo = false 
+        break;
+      }
+    }
+    if (ehPrimo){
+      quantidade++;
+    }
+  }
+
+  return quantidade;
 }
 
 // Testes (não altere esta parte)
